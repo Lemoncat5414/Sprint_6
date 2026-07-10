@@ -15,7 +15,7 @@ class OrderPageLocators:
 
     # Форма "Про аренду"
     FIELD_DATA = (By.XPATH, '//input[@placeholder="* Когда привезти самокат"]') # Поле "Когда привезти самокат"
-    SELECT_DATE = (By.XPATH, '//div[@aria-label="Choose пятница, 31-е октября 2025 г."]') # Выбор даты
+    SELECT_DATE = (By.XPATH, '//div[@aria-label="Choose вторник, 14-е июля 2026 г."]') # Выбор даты
     FIELD_RENT = (By.XPATH, './/div[text()="* Срок аренды"]') # Поле "Срок аренды"
     SELECT_RENT = (By.XPATH, './/div[text()="сутки"]') # Выбор срока аренды
     BLACK_CHEKBOX = (By.ID, 'black') # Цвет - "чёрный жемчуг"
